@@ -6,6 +6,7 @@ import Project from './pages/project/Project';
 import Signup from './pages/signup/Signup';
 import Create from './pages/create/Create';
 import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <div className='container'>
           <Navbar />
           
+          <Sidebar />
+
           <Switch>
             
             <Route exact path='/'>
